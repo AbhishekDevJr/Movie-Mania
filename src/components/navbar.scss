@@ -1,0 +1,35 @@
+.container-navbar {
+    padding : 20px;
+    background-color: #000;
+    color : #fff;
+    .wrapper-nav {
+        display : flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-size: 36px;
+            font-weight: 400;
+            span{
+                color : rgb(236 72 153);
+                margin-left: -10px;
+                font-weight: 500;
+            }
+        }
+
+        h1:hover{
+            cursor: pointer;
+        }
+        
+        ul{
+            display: flex;
+            gap : 20px;
+            list-style: none;
+
+            li{
+                color : rgb(236 72 153);
+                cursor : pointer;
+                font-size: 20px;
+            }
+        }
+    }
+}
