@@ -1,0 +1,26 @@
+.container-home-search {
+    outline: 1px solid cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: #000;
+
+    .wrapper-search {
+        display: flex;
+        gap: 20px;
+
+        .textField{
+            min-width: 600px;
+            background-color: #ffffff73;
+            // padding : 1px;
+            border-radius: 5px;
+        }
+
+        button {
+            min-width: 150px;
+            color: rgb(236 72 153);
+            border: 1px solid rgb(236 72 153);
+        }
+    }
+}
